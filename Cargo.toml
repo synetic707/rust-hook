@@ -1,0 +1,9 @@
+[package]
+name = "rust-hook"
+version = "0.1.0"
+authors = ["synetic707 <synetic707@gmail.com>"]
+
+[dependencies]
+byteorder = "1.2.3"
+executable_memory = "0.1.2"
+winapi = { version = "0.3", features = ["winuser"] }
